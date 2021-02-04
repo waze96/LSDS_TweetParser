@@ -2,7 +2,7 @@
 ## Large Scale Distributed Systems 2020 repository
 
 
-		RUNNING ENV DESCRIPTION
+RUNNING ENV DESCRIPTION
 ========================================================	
 	[*] OS: 	Linux Mint
 	[*] RAM:	8GB
@@ -11,7 +11,7 @@
 
 
 
-		BENCHMARK ON #1
+BENCHMARK ON #1
 ========================================================
 
 ES TWEETS:
