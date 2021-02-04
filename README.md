@@ -27,3 +27,10 @@ FR TWEETS:
 
 	[*] Execution Time: 77.344053403 seconds
 	[*] 54909 Lines
+	
+ ### EXTENSIONS
+ 	
+	[*] Function to create a bucket if not exists
+	[*] Function that list your buckets
+ 	[*] 6.1 Unit tests for the SimplifiedTweet class (parsingRealTweet, parsingValidJSONWithoutOneField)
+	
