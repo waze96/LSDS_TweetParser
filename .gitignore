@@ -1,0 +1,8 @@
+# Eclipse
+.lab1/classpath
+.lab1/project
+.lab1/settings/
+ 
+# Maven
+lab1/log/
+lab1/target/
