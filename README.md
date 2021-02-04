@@ -4,9 +4,9 @@
 ========================================================
 		RUNNING ENV DESCRIPTION
 ========================================================	
-OS: 		Linux Mint
-RAM:		8GB
-PROCESSOR:	Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+	[*] OS: 	Linux Mint
+	[*] RAM:	8GB
+	[*] PROCESSOR:	Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 
 
 
