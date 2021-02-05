@@ -1,18 +1,17 @@
 # LSDS2020
 ## Large Scale Distributed Systems 2020 repository
 
-========================================================
-		RUNNING ENV DESCRIPTION
-========================================================	
-OS: 		Linux Mint
-RAM:		8GB
-PROCESSOR:	Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
+
+ ### RUNNING ENV DESCRIPTION
+ 
+	[*] OS: 	Linux Mint
+	[*] RAM:	8GB
+	[*] PROCESSOR:	Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz
 
 
 
-========================================================
-		BENCHMARK ON #1
-========================================================
+
+### BENCHMARK ON #1
 
 ES TWEETS:
 
@@ -28,3 +27,10 @@ FR TWEETS:
 
 	[*] Execution Time: 77.344053403 seconds
 	[*] 54909 Lines
+	
+ ### EXTENSIONS
+ 	
+	[*] Function to create a bucket if not exists
+	[*] Function that list your buckets
+ 	[*] 6.1 Unit tests for the SimplifiedTweet class (parsingRealTweet, parsingValidJSONWithoutOneField)
+	
