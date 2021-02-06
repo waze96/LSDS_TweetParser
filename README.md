@@ -1,5 +1,6 @@
 # LSDS2020
 ## Large Scale Distributed Systems 2020 repository
+## GitHub: https://github.com/waze96/LSDS_TweetParser
 
 
  ### RUNNING ENV DESCRIPTION
