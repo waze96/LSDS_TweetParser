@@ -1,9 +1,12 @@
 # LSDS2020
 ## Large Scale Distributed Systems 2020 repository
-## GitHub: https://github.com/waze96/LSDS_TweetParser
+
+### GitHub: https://github.com/waze96/LSDS_TweetParser
+### Authors: Andrea Borrell, Jordi Alvarez, Eduard Masip
+### UPF 2020-2021
 
 
-### RUNNING ENV DESCRIPTION
+#### RUNNING ENV DESCRIPTION
 
   #1:
 
@@ -18,7 +21,7 @@
 	[*] PROCESSOR:	Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz
 
 
-### BENCHMARK ON #1
+#### BENCHMARK ON #1
 
 ES TWEETS:
 
@@ -35,7 +38,7 @@ FR TWEETS:
 	[*] Execution Time: 77.344053403 seconds
 	[*] 54909 Lines
 	
-### BENCHMARK ON #2
+#### BENCHMARK ON #2
 
 ES TWEETS:
 
@@ -52,7 +55,7 @@ FR TWEETS:
 	[*] Execution Time: 87.424332502 seconds
 	[*] 54909 Lines
 	
-### EXTENSIONS
+#### EXTENSIONS
 	
 	[*] Separate Benchmark for processing, uploading and total.
 	[*] Function to create a bucket if the specified not exists
