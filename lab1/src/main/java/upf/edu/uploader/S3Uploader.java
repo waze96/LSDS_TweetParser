@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
+import com.amazonaws.client.builder.AwsClientBuilder.EndpointConfiguration;
 import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.AmazonS3Exception;
@@ -36,7 +37,10 @@ public class S3Uploader implements Uploader {
 	
 	private AmazonS3 createS3Client(String name) {
 		ProfileCredentialsProvider creds = new ProfileCredentialsProvider(name);
-		return AmazonS3ClientBuilder.standard().withCredentials(creds).build();
+		return AmazonS3ClientBuilder.standard()
+			     .withEndpointConfiguration(new EndpointConfiguration(
+			             "https://s3.us-east-1.amazonaws.com", "us-east-1"))
+			     .withCredentials(creds).build();
 	}
 	
 	private void createBucket(String bucketName) {
